@@ -1,0 +1,33 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.image {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.react-parallax-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.content {
+  background-color: #333;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.text-box {
+  text-align: center;
+  line-height: 2rem;
+  padding: 2rem;
+  h2 {
+    margin-bottom: 2rem;
+  }
+}
