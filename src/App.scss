@@ -3,9 +3,12 @@
   margin: 0px;
   box-sizing: border-box;
 }
+.App {
+  overflow-x: hidden;
+}
 .image {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
 }
 .react-parallax-content {
